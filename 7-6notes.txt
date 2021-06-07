@@ -1,0 +1,27 @@
+Android:  is a complete set of s/w for  mobile devices
+ such as tablet,computers,notepad,smartphones,car,
+watches etc...
+It contains linuxbased operating system
+                       middleware
+                       key mobile applications.
+ o.s :  that manages all of the hardware resources
+ associated with your desktop or laptop.
+ kernel :  is the core of the system and manages the
+cpu memory,and peripheral devices.
+the kernel is the lowest level of the O.S
+ Middle ware:  is the  interface b/w the applications 
+and operating system
+key mobile applications: is also called  Native Apps
+ OpenSource: is S/w with source code anyone can 
+access and modify  and share  because  its design is
+publicly accessible.
+
+
+
+
+
+
+
+
+
+
