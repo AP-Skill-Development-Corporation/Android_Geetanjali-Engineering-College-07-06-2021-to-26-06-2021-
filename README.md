@@ -2,6 +2,7 @@
 
 ## Goto Meeting  Recorded Links :-(07-06-2021 to 26-06-2021)
 07-06-2021
+https://transcripts.gotomeeting.com/#/s/39938a4062a124b8306f0051308140c2792839b6b4a89ee1b51e0eb8bf71d0c9
 
 08-06-2021
 09-06-2021
