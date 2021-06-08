@@ -1,0 +1,40 @@
+XML : is a Markup language 
+xml is designed  to store and transport  data
+xml tags are  not predefined  you must defined  your
+own tags 
+xml is  platform independent and  language independent
+ xml -extensible markup language.
+
+ Java  is object orientented  programming
+language and platform independent and secure
+ everything in java is an object.
+Manifest File :  file contains information of your
+package,including components of the application 
+ Gradle : is a build system open source which is used
+to automate building,testing,deployment etc..
+build.gradle  is used to configure  the repositories
+and dependencies for gradle
+Layout :  defines the  visualstructure  for a UI
+such as the UI for an Activity.
+Constraint Layout:
+ which allows  to position and size widgets in a flexble
+way.
+LinearLayout:  that aligns  all children  in a single
+direction vertically or horizontally.
+Relative layout: displays  childviews in relative 
+positions.
+Frame layout: is design to block out an area  on the
+screen to display a single item
+TableLayout: going to be arranged groups of views  
+in to rows and coloumns
+
+
+
+
+
+
+
+
+
+
+
