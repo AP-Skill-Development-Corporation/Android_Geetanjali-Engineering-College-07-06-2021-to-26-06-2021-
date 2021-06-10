@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
@@ -23,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mToast(View view) {
+        /*Toast is display message  in particular duration*/
+        Toast.makeText(this,"Hai Students",Toast.LENGTH_LONG).show();
     }
 }
