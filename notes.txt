@@ -15,6 +15,20 @@ key mobile applications: is also called  Native Apps
  OpenSource: is S/w with source code anyone can 
 access and modify  and share  because  its design is
 publicly accessible.
+Intent : is a messaging object  you can use to requst
+an action from another app component.
+It is used to  perform inter connection between
+activities and data passing mechanism.
+It is used to launch an activity,display a  web page,
+send SMS,send Email, etc...
+
+They are two types of intent
+Explicit Intent: specifies  the  component  intent 
+provides the external class to be invoked
+
+Implicit Intent: does not specify the component intent
+provides information of available components provided by
+the  system .
 
 
 
