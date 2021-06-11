@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Submit"
+       android:onClick="submit"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edit1"
+       android:hint="enter url"
+       android:layout_marginTop="20sp"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="GotoBrowser"
+       android:layout_marginTop="20sp"
+       android:onClick="gotoBrowser"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="LaunchEmail"
+       android:layout_marginTop="20sp"
+       android:onClick="launchEmail"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edit2"
+       android:hint="Enter Your Name"
+       android:layout_marginTop="20sp"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="passData"
+       android:onClick="passData"
+       android:layout_marginTop="20sp"/>
+
+
+</LinearLayout>
