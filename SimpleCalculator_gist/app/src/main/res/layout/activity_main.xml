@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Calculator"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textColor="#052AFA"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edit1"
+    android:inputType="number"
+    android:hint="enter first number"
+    android:layout_marginTop="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edit2"
+        android:hint="enter first number"
+        android:layout_marginTop="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="plus"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="minus"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:onClick="multi"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:onClick="divi"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#FF9800"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:textSize="34sp"
+        android:id="@+id/text1"/>
+
+
+</LinearLayout>
