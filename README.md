@@ -11,6 +11,7 @@ https://transcripts.gotomeeting.com/#/s/f8b9735f869bbf78fdad48d6c75f45c4b1de8c07
 10-06-2021
 https://transcripts.gotomeeting.com/#/s/2cd1834276061e338c4376c618addf8ea6a074c298a2c71cce625b0fac227fdc<br>
 11-06-2021
+https://transcripts.gotomeeting.com/#/s/0bc01e97407c0997fac66e89b290baa10d7dc8e77d9a9a98a47889acfc21212c<br>
 12-06-2021
 13-06-2021
 14-06-2021
