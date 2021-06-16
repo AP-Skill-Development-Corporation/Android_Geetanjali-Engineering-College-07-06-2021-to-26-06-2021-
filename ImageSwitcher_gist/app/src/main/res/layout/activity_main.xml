@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:text="Devices"
+        android:layout_marginTop="20sp"/>
+    <ImageSwitcher
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/imgs1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prev1"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:textColor="#fff"
+            android:onClick="previous"
+            android:text="Previous"
+            android:layout_marginRight="20sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next1"
+            android:onClick="next"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:textColor="#fff"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+</LinearLayout>
