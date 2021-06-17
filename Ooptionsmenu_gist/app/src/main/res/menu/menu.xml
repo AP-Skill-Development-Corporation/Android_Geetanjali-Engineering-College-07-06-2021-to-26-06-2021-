@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="TimePicker"
+        app:showAsAction="ifRoom" />
+    <item android:title="AlertDialogBox"
+        android:id="@+id/item2"/>
+    <item android:title="DatePicker"
+        android:id="@+id/itmem3"/>
+    <item android:title="LogOut"
+        android:id="@+id/item4"/>
+</menu>
