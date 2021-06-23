@@ -1,0 +1,59 @@
+Today we will discuss about 
+SharedPrefrences
+BroadcastRecievers
+MaterialDesign
+Notifications
+
+Data Persistences in Android 
+1.SharedPrefences(Key,value pairs)
+2.Internal Storage(Inyour mobile devices)
+3.External Storage -sd cards
+4.SqlDatabase- structured way tables or tabular form
+5.RoomDataBase-mvc,mvp,mvvm
+model view controller,modelviewpresenter,modelview view model.
+
+sp privates modes of storing the data (private mode,public mode)
+SharedPrefences.Editor -commits or apply the changes made to the files.
+edit()-this method is used to create a new Editor,through which modiifcations can done.
+
+Android provides many ways of storing of an application.
+sp allows you to save and retrive data in form of key,value.
+getSharedPrefences()-compare both login and register page.
+SharedPrefernce sp= getSharedPrefences(Myprefernces ,Context.Mode_private);
+1.key
+2.mode
+
+Editor editor=sp.edit();
+editor.putString("key","value");
+editor.commit();
+apply()-commit changesback;
+
+
+BroadcastRecievers:
+System generated events are called broadcast.
+Broadcast reciever is a dormant component of android.that listens to system wide broadcast events.
+When ever any of these events occur it brings a the application in to an action.
+status bar notification or performing some task.
+
+Battery_low
+Boot_completed
+call
+date_changed
+reboot
+connection_plug
+connection_plugout.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
